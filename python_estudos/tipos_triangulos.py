@@ -36,5 +36,3 @@ elif position1 == position2 or position1 == position3 or position2 == position3:
 
 
 
-    
-
