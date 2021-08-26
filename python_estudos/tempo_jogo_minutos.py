@@ -7,21 +7,18 @@ minuto_inicial = int(line[1])
 hora_final = int(line[2])
 minuto_final = int(line[3])
 
+rh = hora_final - hora_inicial
 
-print(hora_final - hora_inicial)
+if rh < 0:
+    rh = 24 + rh
 
-# rh = hora_final - hora_inicial
+rm = minuto_final - minuto_inicial
 
-# if rh < 0:
-#     rh = 24 + rh
-
-# rm = minuto_final - minuto_inicial
-
-# if rm < 0:
-#     rm = 60 + rm
-#     rh -=1
+if rm < 0:
+    rm = 60 + rm
+    rh -=1
     
-# if hora_inicial==hora_final and minuto_inicial==minuto_final:
-#     print("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)")
-# else:
-#     print("O JOGO DUROU %d HORA(S) E %d MINUTO(S)" %(rh,rm))       
+if hora_inicial==hora_final and minuto_inicial==minuto_final:
+    print("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)")
+else:
+    print(f"O JOGO DUROU {rh} HORA(S) E {rm} MINUTO(S)")       
