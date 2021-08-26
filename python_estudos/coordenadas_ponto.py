@@ -5,7 +5,6 @@ line = input().split(' ')
 x = float(line[0])
 y = float(line[1])
 
-
 if x == 0 and y == 0:
     print('Origem')
 elif x > 0 and y > 0:
@@ -15,4 +14,5 @@ elif x < 0 and y > 0:
 elif x < 0 and y < 0:
     print('Q3')
 else:
-    print('Q4')          
+    print('Q4')    
+      
