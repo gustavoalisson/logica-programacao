@@ -24,7 +24,4 @@ elif salario >= 1200.01 and salario <= 2000.00:
 elif salario > 2000.00:
     percentual = 4
     calculo()    
-        
-     
-    
 
