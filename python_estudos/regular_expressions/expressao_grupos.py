@@ -24,7 +24,13 @@ https://www.google.com.br/
 http://www.ibam-concursos.org.br
 '''
 
-p = re.compile(r'https?')
+p = re.compile(r'https?:\/\/(www\.)?([a-zA-z0-9\S]+\.)+(com.br|gov.br|org.br|com)')
 correspondencias = p.finditer(texto1)
 for correspondencia in correspondencias:
     print(correspondencia)
+    print(correspondencia.group(0))
+    print(correspondencia.group(1))
+    print(correspondencia.group(2))
+    print(correspondencia.group(3))
+    
+    
