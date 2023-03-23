@@ -22,3 +22,9 @@ print('fora do if')
 
 
 # Exemplo executado...
+
+""" 
+
+Com o ponto de dubger eu consigo pedi para a execução parar onde o breakpoint estiver. 
+
+"""
