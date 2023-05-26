@@ -17,5 +17,8 @@ if entrada == 'E' and senha_digitada == senha_esperada:
     print('Entrar')
 else:
     print('Sair')
-    
-    
+
+# Avaliação de curto circuito 
+# * True and False and True
+# * True and 0 and False
+
