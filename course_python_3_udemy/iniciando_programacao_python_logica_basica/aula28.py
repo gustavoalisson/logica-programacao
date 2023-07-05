@@ -15,7 +15,7 @@ Se nada for digitado em nome ou idade:
 """
 
 nome = input('Por favor, digite o seu nome: ')
-idade = input('Por favor, digite a sua idade: ')
+idade = int(input('Por favor, digite a sua idade: '))
 
 if nome and idade:
 
