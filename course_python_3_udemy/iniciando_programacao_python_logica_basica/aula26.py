@@ -21,5 +21,7 @@ print(f'.{variavel:>20}.')
 print(f'.{variavel:<20}.')
 print(f'.{variavel:q^20}.')
 print(f'{10000.564941261321:+,.1f}')
+print(f'O hexadecimal de 1500 é {1500:08X}') #maisculo
+print(f'O hexadecimal de 1500 é {1500:08x}') #minusculo
 
 
