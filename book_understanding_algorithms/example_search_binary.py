@@ -33,4 +33,4 @@ máximo de etapas agora?
 
 """
 
-# ! minha resposta: 14 etapas
+# ! minha resposta: 9 etapas
